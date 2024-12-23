@@ -30,7 +30,7 @@
     ]
   },
   "types": "./dist/index.d.ts",
-  "name": "auto-playwright",
+  "name": "vllm-playwright",
   "main": "./dist/index.js",
   "sideEffects": false,
   "description": "Automate Playwright tests using ChatGPT.",
@@ -54,7 +54,7 @@
     "format": "prettier --write ./src",
     "lint": "prettier --check ./src && knip",
     "semantic-release": "semantic-release",
-    "test": "playwright test"
+    "test": "playwright test auto.spec.ts"
   },
   "version": "0.0.0-development"
 }
